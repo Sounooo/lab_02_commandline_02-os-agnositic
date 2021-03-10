@@ -418,7 +418,9 @@ Copy and paste the output below.
 $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
----------- stuff/hello.txt
+---------- stuff/
+stuff/hello.txt
+stuff/stuff.tar
 
 
 
@@ -454,7 +456,7 @@ MAKE SURE YOU MOVE THE FILE THAT ENDS IN .gz!
 Change your directory to mtec1002-lab-02.  
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
----------- stuff.tar.gz
+----------books  logs  stuff.tar.gz  web
 
 
 ==========
@@ -463,7 +465,9 @@ List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
+stuff/
 stuff/hello.txt
+stuff/stuff.tar
 ==========
 24. Go back to your home directory
 [No output]
